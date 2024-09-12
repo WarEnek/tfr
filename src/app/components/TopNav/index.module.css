@@ -1,0 +1,22 @@
+.appBar {
+  border-radius: 0 0 16px 16px;
+  background: #f9f9f9;
+  display: flex;
+  gap: 16px;
+  overflow: hidden;
+  color: #2c2d2e;
+  white-space: nowrap;
+  padding: 15px 16px;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+}
+
+.title {
+  flex-grow: 1;
+  width: 283px;
+  flex-basis: auto;
+  font: 500 18px/1 var(--font-inter);
+}

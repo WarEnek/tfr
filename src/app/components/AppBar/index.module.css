@@ -1,0 +1,42 @@
+.appBar {
+  border-radius: 0 0 16px 16px;
+  background: #f9f9f9;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.title {
+  color: #2c2d2e;
+  font: 500 18px/1 var(--font-inter);
+}
+
+.rightIcons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.iconButton,
+.textButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.textButton {
+  padding: 4px 8px;
+  gap: 4px;
+}
+
+.buttonText {
+  color: #2c2d2e;
+  font: 500 14px/1 var(--font-inter);
+}

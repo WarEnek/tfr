@@ -1,5 +1,5 @@
 .mainScreen {
-  background: #f9f9f9;
+  background: var(--Light-Background-colorBackground, #f9f9f9);
   display: flex;
   max-width: 360px;
   flex-direction: column;
